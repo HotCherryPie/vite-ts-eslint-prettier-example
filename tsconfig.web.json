@@ -1,0 +1,18 @@
+{
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue", "src/*.vue"],
+  "extends": ["./tsconfig.base.json"],
+  "compilerOptions": {
+    "noEmit": true,
+    "composite": true,
+    "skipLibCheck": true,
+
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+
+    /* Language and Environment */
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "types": []
+  }
+}

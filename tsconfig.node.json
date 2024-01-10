@@ -1,0 +1,13 @@
+{
+  "include": ["*.ts"],
+  "extends": ["@tsconfig/node20/tsconfig.json", "./tsconfig.base.json"],
+
+  "compilerOptions": {
+    "noEmit": true,
+    "composite": true,
+    "types": ["node"],
+    "resolveJsonModule": true
+
+    // "noImplicitOverride": false
+  }
+}
