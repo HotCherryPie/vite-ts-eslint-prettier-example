@@ -9,6 +9,7 @@
     /* Modules */
     "module": "ESNext",
     "moduleResolution": "bundler",
+    "moduleDetection": "force",
     "isolatedModules": true,
 
     /* Language and Environment */

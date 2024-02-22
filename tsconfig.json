@@ -1,11 +1,5 @@
 {
   "include": [],
   "references": [{ "path": "./tsconfig.node.json" }, { "path": "./tsconfig.web.json" }],
-  "compilerOptions": {
-    // "useDefineForClassFields": true,
-    // "skipLibCheck": true
-    // "allowImportingTsExtensions": true,
-    // "resolveJsonModule": true,
-    // "isolatedModules": true
-  }
+  "compilerOptions": {}
 }
